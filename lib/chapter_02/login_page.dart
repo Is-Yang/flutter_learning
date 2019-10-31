@@ -89,8 +89,8 @@ class _LoginPageState extends State<LoginPage> {
         //     content: Text("登录成功，公司名称；" + data['data']['area']['fullName']),
         //   )
         // );
-        // Navigator.of(context).pushNamed('/home', arguments: data['data']['area']['fullName']);
-        Application.router.navigateTo(context, "/detail/1");
+        Navigator.of(context).pushNamed('/home', arguments: data['data']['area']['fullName']);
+        // Application.router.navigateTo(context, "/detail/1");
       }
       
     }).whenComplete(() {
