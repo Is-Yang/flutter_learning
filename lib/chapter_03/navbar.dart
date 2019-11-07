@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import '../chapter_01/main.dart' as page1;
 import '../chapter_02/list_page.dart';
 import '../chapter_03/detail_page.dart';
+import '../chapter_04/index_page.dart' as page4;
 
 class Navbar extends StatefulWidget {
   @override
@@ -26,7 +27,7 @@ class _NavbarState extends State<Navbar> {
   ];
 
   final List tabBodies = [
-    page1.MyApp(),
+    page4.IndexPage(),
     ListPage(),
     // DetailPage('1')
   ];

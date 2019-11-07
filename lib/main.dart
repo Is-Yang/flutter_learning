@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import './chapter_02/login_page.dart';
 import './chapter_02/list_page.dart';
 import './chapter_03/navbar.dart';
+import './chapter_04/index_page.dart' as chapter04;
 import './demo/pyq_page.dart';
 import './demo/answer.dart';
 import 'package:flutter/widgets.dart';
@@ -30,7 +31,8 @@ class MyApp extends StatelessWidget {
         '/list': (BuildContext context) => ListPage(),
         '/login': (BuildContext context) =>  LoginPage(),
         '/pyq': (BuildContext context) => PYQPage(),
-        '/answer': (BuildContext context) => AnswerPage()
+        '/answer': (BuildContext context) => AnswerPage(),
+        '/initstate': (BuildContext context) => chapter04.IndexPage(),
       },
     );
   }
